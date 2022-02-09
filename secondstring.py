@@ -4,4 +4,4 @@
 #Author: Megan Tully
 
 sentence = str(input("Enter a sentence: "))
-print(sentence[::-1])
+print(sentence[::-1]) #reference W3Schools
