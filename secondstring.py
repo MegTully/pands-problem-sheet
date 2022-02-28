@@ -4,4 +4,15 @@
 #Author: Megan Tully
 
 sentence = str(input("Enter a sentence: "))
-print(sentence[::-1]) #reference W3Schools
+x = int
+
+lengthofsentence = len(sentence)
+
+#print(sentence[::-1], lengthofsentence) #reference W3Schools
+
+#if x % 2 == 0:
+    #print(sentence[x])
+
+x= [0,6]
+for int in x:
+    print(sentence[x])
