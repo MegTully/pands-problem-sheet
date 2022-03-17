@@ -3,16 +3,13 @@
 #of the sentence.
 #Author: Megan Tully
 
+#Asks user to write a sentence
 sentence = str(input("Enter a sentence: "))
-x = int
 
-lengthofsentence = len(sentence)
+#Creates a new string starting with last letter of sentence(sentence backwards) [1]
+Backwards= sentence[::-1]
 
-#print(sentence[::-1], lengthofsentence) #reference W3Schools
+#prints out every second letter of sentence backwards [1]
+print(Backwards[0::2]) 
 
-#if x % 2 == 0:
-    #print(sentence[x])
-
-x= [0,6]
-for int in x:
-    print(sentence[x])
+#[1] Strings and Character Data in Python, Christopher Bailey, https://realpython.com/lessons/string-slicing/
