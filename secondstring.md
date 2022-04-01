@@ -1,4 +1,4 @@
-# Task02: Write a program 
+# Task03: Write a program 
 ## Author: Megan Tully
 
 ## Step One: Get user to input a sentence
