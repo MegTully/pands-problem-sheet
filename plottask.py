@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 xs = np.array(range(0,4))
 ys= xs
 
-#Plot xs and ys with label, linewidth and colour
+#Plot xs and ys with label, linewidth and colour [1] [3] [4]
 plt.plot(xs,ys,label = "f(x) = x", linewidth = '5', color = "m") # m = colour magenta
 #label x-axis
 plt.xlabel("x-Axis")
@@ -25,7 +25,7 @@ x2s = np.array(range(0,4))
 #x^2
 y2s= xs*xs
 
-#Plot the graph this time with markers
+#Plot the graph this time with markers [1] [2] 
 plt.plot(x2s,y2s,label = "$g(x) = x^2$", linewidth = '2', color = "c", marker = '*', mec = "k") # c = colour cyan, k= black
 plt.xlabel("x-Axis")
 plt.ylabel("$y-Axis (x^2)$")
@@ -37,10 +37,15 @@ x3s = np.array(range(0,4))
 #x^3
 y3s= xs**3
 
-#plot a scatter plot with yellow dots
+#plot a scatter plot with yellow dots [5]
 plt.scatter(x3s,y3s,label = "$h(x) = x^3$", color = "yellow") # y = colour yellow
 plt.xlabel("x-Axis")
 plt.ylabel("$y-Axis (x^3)$")
 plt.legend()
 plt.show()
 
+#[1] https://www.w3schools.com/python/matplotlib_plotting.asp
+#[2] https://www.w3schools.com/python/matplotlib_markers.asp
+#[3] https://www.w3schools.com/python/matplotlib_line.asp
+#[4] https://www.w3schools.com/python/matplotlib_labels.asp
+#[5] https://www.w3schools.com/python/matplotlib_scatter.asp
