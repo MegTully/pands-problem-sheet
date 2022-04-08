@@ -1,4 +1,4 @@
-# Task 02: Write a program
+# Task 02: Write a program that calculates somebody's Body Mass Index (BMI)
 ## Author: Megan Tully
 
 To calculate a person's BMI you need their weight in kg and height in metres.
