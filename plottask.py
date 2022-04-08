@@ -9,24 +9,35 @@ import matplotlib.pyplot as plt
 xs = np.array(range(0,4))
 ys= xs
 
+#Plot xs and ys with label, linewidth and colour
 plt.plot(xs,ys,label = "f(x) = x", linewidth = '5', color = "m") # m = colour magenta
+#label x-axis
 plt.xlabel("x-Axis")
+#label y-axis
 plt.ylabel("y-Axis")
+#add a legend to graph
 plt.legend()
+#Display graph
 plt.show()
 
+#Create 2 new arrays for x and y values of function g(x)= x^2
 x2s = np.array(range(0,4))
+#x^2
 y2s= xs*xs
 
-plt.plot(x2s,y2s,label = "$g(x) = x^2$", linewidth = '2', color = "c", marker = '*', mec = "k") # c = colour cyan
+#Plot the graph this time with markers
+plt.plot(x2s,y2s,label = "$g(x) = x^2$", linewidth = '2', color = "c", marker = '*', mec = "k") # c = colour cyan, k= black
 plt.xlabel("x-Axis")
 plt.ylabel("$y-Axis (x^2)$")
 plt.legend()
 plt.show()
 
+#Create 2 new arrays for x and y of the function h(x)=x^3
 x3s = np.array(range(0,4))
+#x^3
 y3s= xs**3
 
+#plot a scatter plot with yellow dots
 plt.scatter(x3s,y3s,label = "$h(x) = x^3$", color = "yellow") # y = colour yellow
 plt.xlabel("x-Axis")
 plt.ylabel("$y-Axis (x^3)$")
