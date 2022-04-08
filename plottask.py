@@ -1,10 +1,11 @@
-#Write a program called plottask.py that displays a plot of the functions f(x)=x, g(x)=x2 and 
-# h(x)=x3 in the range [0, 4] on the one set of axes.
-#Some marks will be given for making the plot look nice.
+#This program displays a plot of the functions f(x)=x, g(x)=x2 and h(x)=x3 in the range [0, 4] 
+# on the one set of axes.
 
+#import packages to plot functions
 import numpy as np
 import matplotlib.pyplot as plt
 
+#Create an array of x values and y values equal to the x values in the range[0,4]
 xs = np.array(range(0,4))
 ys= xs
 
