@@ -1,23 +1,28 @@
 #Newtons Method -> root = Xn - (f(Xn)/ f'(Xn))  
 
+from math import *
+
+def average(a, b):
+    return (a + b) / 2.0
+
+def improve(guess, x):
+    return average(guess, x/guess)
+
+def good_enough(guess, x):
+    d = abs(guess*guess - x)
+    return (d < 0.001)
+
+def square_root(guess, x):
+    while(not good_enough(guess, x)):
+        guess = improve(guess, x)
+    return guess
+
+def my_sqrt(x):
+    r = square_root(1, x)
+    return r
+
+print(my_sqrt(18))
 
 
-def sqrt():
-    a = (input("Please enter a number: "))
-    a= float #say sqrt 2
-    x = float
-    
-    while a > 0:
-        sq = x*x
-        (sq - a/2) = 0
-
-
-
-
-
-
- 
-
-sqrt()
     
 
